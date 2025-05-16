@@ -1,0 +1,136 @@
+/* Basic CSS styling */
+body {
+    background-image: -moz-repeating-linear-gradient(f)
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-style: italic;
+    position: left;
+    color: hsl(268, 55%, 56%);
+    text-align: left;
+}
+
+nav {
+    background-color: #454;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+
+}
+
+footer {
+    background-color: rgb(173, 28, 28);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    background-color: #454
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: rgb(215, 233, 238);
+    width: 10%;
+    min-width: 25px;
+    padding: 10px 12px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    text-align: center;
+    cursor: pointer;
+}
+
+.product :hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.17);
+}
+.product img {
+    height: 200px;
+    width: 100px;
+    image-orientation: inherit;
+    height: auto;
+}
+
+.deals {
+    background-color: #454
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align: left;
+    justify-content: space-around;
+}
+.deal1 {
+    image-rendering: crisp-edges;
+    width: 150px;
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 20px 20px 34px #1b2f53;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px o;
+
+}
+.deal1 img {
+    height: 200px;
+    width: 100px;
+    image-orientation: inherit;
+    height: auto;
+}
+.deal1 :hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.17);
+}
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+.male img{
+    width: 200px;
+    height: auto;
+}
+.male h5{
+    font-size: 25px;
+    color: royalblue;
+    text-align: left;
+}
+
+.female img{
+    width: 200px;
+    height: auto;
+}
+.female h5{
+    font-size: 25px;
+    color: royalblue;
+    text-align: left;
+}

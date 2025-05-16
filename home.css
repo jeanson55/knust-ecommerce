@@ -1,0 +1,202 @@
+/* Basic CSS styling */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e5e6ee;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: fixed
+    top: 0;
+    left: 0;
+    font-style: italic;
+    color: #1b2f53;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    position: left;
+    color: hsl(268, 55%, 56%);
+    text-align: center;
+}
+
+
+nav {
+    padding: 20px 80px;
+    background-color: #454;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    z-index: 999;
+    position: fixed
+    top: 0;
+    left: 0;
+}
+
+/* Style the dropdown container */
+.dropdown {
+    position: left;
+    display: inline-block;
+  }
+  
+  /* Style the dropdown button */
+  .dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    padding: 8px 28px 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 10px;
+    outline: none;
+  }
+  
+  /* Style the arrow */
+  .dropdown::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 28%;
+    right: 25px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #000;
+  }
+  
+  /* Style the dropdown options */
+  .dropdown select option {
+    padding: 8px;
+  }
+  
+  .form{
+      position: fixed;
+      color: #090a42;
+      background-color: #1b0846;
+
+  }
+
+body{
+    background-color: rgb(136, 153, 160)
+}
+footer {
+    background-color: rgb(173, 28, 28);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+
+#hero {
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+#hero h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #090a42
+}
+#hero h2 {
+    color: #1b0846;
+}
+#hero button {
+    background-image: url(button.jpg);
+    background-color: transparent;
+    color: #0b3a0b78;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+#category{
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% left 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: right;
+    align-items: flex-start;
+    justify-content: right;
+    align-content: right;
+}
+#category img{
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#feature .fe-box {
+    image-rendering: crisp-edges;
+    width: 150px;
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 20px 20px 34px #1b2f53;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px o;
+
+
+}
+#feature .fe-box: :hover{
+    box-shadow: 10px 10px 54px rgba(0,0,0,0.03);
+
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(3, 20, 15);
+    background-color: #504c58
+
+}
+
+#feature .fe-box h6:nth-child(2) h6{
+    background-color: rgb(53, 32, 4);
+}
+
+#feature .fe-box h6:nth-child(3) h6{
+    background-color: rgb(233, 161, 68);
+}
+#feature .fe-box h6:nth-child(4) h6{
+    background-color: rgb(22, 16, 75);
+}
+#feature .fe-box h6:nth-child(5) h6{
+    background-color: rgb(190, 17, 46);
+}
+#feature .fe-box h6:nth-child(6) h6{
+    background-color: rgb(20, 146, 77);
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.h2{
+    font-size: 80px;
+    padding-bottom: 55px;
+    color: #090a42
+}

@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #dedfff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-style: italic;
+    color: #1b2f53;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    position: left;
+    color: hsl(268, 55%, 56%);
+    text-align: center;
+}
+
+
+nav {
+    padding: 20px 80px;
+    background-color: #454;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
